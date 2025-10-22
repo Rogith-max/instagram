@@ -1,0 +1,107 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+main{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 320px 320px 320px;
+}
+main > #art1{
+    background-image: url(./images/WhatsApp\ Image\ 2025-09-30\ at\ 4.42.21\ PM.jpeg);
+
+}
+main > #art2{
+    grid-column-start: span 2;
+    background-image: url(./images/WhatsApp\ Image\ 2025-09-30\ at\ 4.42.21\ PM\ \(1\).jpeg);
+    
+}
+main > #art3{
+    grid-column-start: span 2;
+    background-image: url(./images/WhatsApp\ Image\ 2025-09-30\ at\ 4.42.21\ PM\ \(2\).jpeg);
+    
+}
+main > #art4{
+    background-image: url(./images/WhatsApp\ Image\ 2025-09-30\ at\ 4.42.55\ PM.jpeg);   
+}
+main > #art5{
+    background-image: url(./images/WhatsApp\ Image\ 2025-09-30\ at\ 4.42.55\ PM\ \(1\).jpeg);
+}
+main > #art6{
+    grid-column-start: span 2;
+    background-image: url(./images/WhatsApp\ Image\ 2025-09-30\ at\ 4.42.55\ PM\ \(3\).jpeg);
+}
+main > #art1 >div{
+    background-color: #6ab3ce80;
+    height: 100%;
+    transition: 1s;
+}
+
+main >#art1 >div:hover{
+    background-color: transparent;
+}
+main > #art2 >div:hover{
+    background-color: #867cb870;
+    height: 100%; 
+    transition: 1s;  
+}
+main >#art2 >div:hover{
+    background-color: transparent;
+}
+main > #art3 >div:hover{
+    background-color: #e5928a85;
+    height: 100%;
+    transition: 1s;
+}
+main >#art3 >div:hover{
+    background-color: transparent;
+}
+main > #art4 >div{
+    background-color: #ddb68f7e;
+    height: 100%;
+    transition: 1s;
+
+}
+main >#art4 >div:hover{
+    background-color: transparent;
+}
+main > #art5 >div{
+    background-color: #7f99d070;
+    height: 100%;
+    transition: 1s;
+
+}
+main >#art5 >div:hover{
+    background-color: transparent;
+}
+main > #art6 >div{
+    background-color: #8abca17a;
+    height: 100%;
+}
+main >#art6 >div:hover{
+    background-color: transparent;
+}
+main>article>div{
+    display: flex;
+    align-items: center;
+    padding-left: 30%;
+}
+main>article>div>div{
+    margin-left: 30px;
+    color : white;
+}
+main>article>div{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+main>article>div{
+    height: 3px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+main>article>div>div>p{
+    text-transform: uppercase;
+}
